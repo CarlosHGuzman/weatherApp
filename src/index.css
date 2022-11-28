@@ -1,0 +1,63 @@
+html{
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: rgb(114, 7, 114);
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.App{
+  height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/770/163/non_2x/weather-cute-background-vector.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 
+}
+
+.card-weather{
+  max-width: 90%;
+  background-color: rgba(255, 255, 255, 0.753);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.place{
+ width: 100%;
+ text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+.btn{
+  background-color: rgb(114, 7, 114);
+  color: #ccc;
+}
+
+.btn-center{
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row;
+  justify-content: space-between;
+}
+
+.climate-img-grades>p{
+  display: flex;
+  align-content: center;
+}
